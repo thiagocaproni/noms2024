@@ -57,12 +57,9 @@ dependencies in it:
 
     conda env create
 
-## Data
-> You need to either provide or cite the data used in your analysis.
-> Avoid cluttering your repository with a lot of raw data but instead archive and
-> mint a DOI for your data.
+## Datasets
 
-Hadjimichael, A. (2020). My interesting dataset [Data set]. DataHub. https://doi.org/some-doi-number
+You can find the datasets used in this work in `datasets` folder.
 
 ## Reproducing the results
 
@@ -78,6 +75,9 @@ To build and test the software, produce all results and figures, follow these st
 
 > Training the models
 
+The training scripts are in `code/timegan/train`. In this folder there are two scripts: `timegan32.py` and `timegan64.py`. As detailed in our paper, we generated synthetic data for two different PDP scenarios: 32 and 64 packets in switch buffes size.
+
+> Training the models
 
 ## License
 
