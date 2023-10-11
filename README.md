@@ -1,14 +1,10 @@
-# *Paper title*
+# *TimeGAN as a Simulator for Reinforcement Learning Training in Programmable Data Planes*
 
 by *authors*
 
-> Fill out the sections below with the information for your paper.
 
-This paper has been submitted for publication in IEEE/IFIP Network Operations and Management Symposium (NOMS 2024).
+This git shows the codes, graphs, and plots of our paper, which has been submitted for publication in IEEE/IFIP Network Operations and Management Symposium (NOMS 2024). You will have access to the Python codes we have used to generate our results.
 
-> Brief description of what the paper is about (the key points).
-> You can include a main paper figure here also.  
-*Caption for the example figure with the main results.*
 
 ## Abstract
 
@@ -16,8 +12,6 @@ This paper has been submitted for publication in IEEE/IFIP Network Operations an
 
 ## Code implementation and references
 
-> Briefly describe the software/scripts used to produce the results of the
-> paper. The following is an example:
 
 All source code used to generate the results and figures in the paper are in
 the `code` folder.
@@ -36,12 +30,6 @@ or [download a zip archive](https://github.com/thiagocaproni/noms2024/archive/re
 
 ## Dependencies
 
-> Depending on your project, the script might depend on several other packages
-> to run. If using Python, you can use a '.yml' file specifying your dependencies.
-> You can create one and place it in the repository so subsequent users take it
-> and create a Python environment with all they need to replicate your results.
-> This section should then describe how one can set up an environment with the
-> dependencies necessary to run your code.
 
 You'll need Python *3.9.16* to run the code.
 You can set up an environment with all dependencies using an environment manager
@@ -73,18 +61,17 @@ or, on Windows:
 
 To build and test the software, produce all results and figures, follow these steps:
 
-### Reproducing the results
+### Training the models
 
-The training scripts are in `code/timegan/train`. In this folder there are two scripts: `timegan32.py` and `timegan64.py`. As detailed in our paper, we generated synthetic data for two different PDP scenarios: 32 and 64 packets in switch buffes size.
+The training scripts are in `code/timegan/train`. In this folder there are two scripts: `timegan32.py` and `timegan64.py`. As detailed in our paper, we generated synthetic data for two different PDP scenarios: 32 and 64 packets in switch buffes
 
-> Training the models
+### Generating synthetic data from models
+
+### Evaluating models and generating synthetic datasets
+
 
 ## License
 
 All source code is made available under a BSD 3-clause license. You can freely
 use and modify the code, without warranty, so long as you provide attribution
 to the authors.
-
-The manuscript text is not open source. The authors reserve the rights to the
-article content, which is currently submitted for publication in the
-JOURNAL NAME.
