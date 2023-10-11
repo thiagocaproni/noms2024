@@ -73,7 +73,7 @@ or, on Windows:
 
 To build and test the software, produce all results and figures, follow these steps:
 
-> Training the models
+### Reproducing the results
 
 The training scripts are in `code/timegan/train`. In this folder there are two scripts: `timegan32.py` and `timegan64.py`. As detailed in our paper, we generated synthetic data for two different PDP scenarios: 32 and 64 packets in switch buffes size.
 
