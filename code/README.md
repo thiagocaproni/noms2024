@@ -1,4 +1,4 @@
-# Source code for producing the results and figures
+<!-- # Source code for producing the results and figures
 
 > This should be a description of all codes used.
 > The following is example text you can use, taken from [this template](https://github.com/pinga-lab/paper-template)
@@ -35,4 +35,4 @@ generating the final figures:
 
 * Create all figure files specified in the `Makefile`:
 
-        make figures
+        make figures -->
